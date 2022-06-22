@@ -1,0 +1,137 @@
+{
+  "SubscriptionPages": {
+    "heading":  "[FR] Subscriptions",
+    "continue": "Continuez",
+    "Steps": {
+      "myplan":  "Mon plan",
+      "account": "Compte",
+      "delivery": "Livraison",
+      "payment": "Paiement"
+    },
+    "MyPlan": {
+      "heading":  "Mon plan"
+    },
+    "Account": {
+      "heading":  "Compte"
+    },
+    "Delivery": {
+      "heading": "Livraison",
+      "deliveryDayBestForYou": "[FR] What delivery day works best for you?",
+      "deliveryDay": "[FR] Delivery day",
+      "Title": {
+        "yourContactInfo": "[FR] Your contact information",
+        "fullName": "Nom complet",
+        "phone": "Téléphone",
+        "yourAddress": "[FR] Your address",
+        "streetAddress": "Adresse",
+        "deliveryInformation": "[FR] Delivery Information",
+        "typeOfResidence": "Type de résidence",
+        "deliveryInstructions": "Instructions de livraison (optionnel)",
+        "deliveryAddress": "[FR] Delivery address",
+        "firstDelivery": "[FR] First Delivery",
+        "change": "[FR] Change"
+      },
+      "BuildingTypes": {
+        "house": "Maison",
+        "apartmentWithDoorman": "Appartement avec gardien qui accepte les colis",
+        "apartmentNoDoorman": "Appartement sans gardien",
+        "duplex": "Duplex/Triplex",
+        "office": "Bureau",
+        "other": "Autre"
+      },
+      "weekday": {
+        "MONDAY": "lundi",
+        "TUESDAY": "mardi",
+        "WEDNESDAY": "mercredi",
+        "THURSDAY": "jeudi",
+        "FRIDAY": "vendredi",
+        "SATURDAY": "samedi",
+        "SUNDAY": "dimanche"
+      },
+      "continue": "Continuez",
+      "notAvailable": "Non disponible"
+    },
+    "Payment": {
+      "heading":  "[FR] How would you like to pay?",
+      "Information": {
+        "heading": "Informations de paiement"
+      },
+      "Title": {
+        "howYouLikeToPay": "[FR] How would you like to pay?",
+        "useMyDeliveryAddress": "[FR] Use my delivery address",
+        "changeYourPaymentMethod": "[FR] Change your payment method",
+        "creditCardDetails": "[FR] Credit card details",
+        "change": "[FR] Change"
+      },
+      "continue": "[FR] Continue",
+      "notAvailable": "[FR] Not Available",
+      "CVVVisaMasterTitle": "Visa et Mastercard",
+      "CVVAMexTitle": "American Express",
+      "currentCreditCard": "Carte de crédit actuelle",
+      "securedPayments": "Paiements sécurisés",
+      "securedPaymentTooltip": "Nous prenons en charge tous les principaux fournisseurs de services de paiement.",
+      "nameOnCard": "Nom sur la carte",
+      "creditCardNum": "Numéro de carte de crédit",
+      "expiration": "Expiration",
+      "CVV": "CVV",
+      "CVVTooltipVisaMaster": "Visa et Mastercard affichent le numéro CVV à 3 chiffres au dos de la carte, à droite de la signature.",
+      "CVVTooltipAMex": "American Express affiche le numéro CVV à 4 chiffres au recto de la carte.",
+      "billingAddress": "Adresse de facturation",
+      "paymentError": "Une erreur s'est produite lors du traitement de la carte"
+    },
+    "PlanSummary": {
+      "heading": "Résumé de votre plan",
+      "description": "{numOfRecipes} meals for {numOfPortions} people per week"
+    },
+    "BonAppetit": {
+      "heading":  "[FR] Bon Appétit!",
+      "description": "[FR] Your first meal kit will be delivered to you on ",
+      "chooseYourRecipes": "[FR] Choose your recipes",
+      "skipPlan":"[FR] You can skip a week or cancel at any time."
+    },
+    "HeroBanner": {
+      "heading":  "[FR] Let’s build your weekly meal plan.",
+      "subheading": "[FR] First, choose the option that suits you best.",
+      "description": "[FR] Each week, we'll recommend meal recipes based on your preferences. You can also select from other plans’ recipes and skip/cancel any time."
+    },
+    "Label": {
+      "update": "[FR] Update",
+      "cancel": "[FR] Cancel",
+      "skipPlan":"Vous pouvez sauter ou annuler à tout moment."
+      },
+    "Carousel": {
+      "heading":"Choisissez parmi une panoplie de délicieuses nouvelles recettes chaque semaine.",
+      "subheading":"[FR] Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a feugiat mauris.",
+      "recipes": {
+        "fettuccine": {
+          "title": "Fettucines rosés et verde frais",
+          "subtitle": "salade de choux-fleurs rôtis, poivrons et pepitas",
+          "imageSrc": "/images/upsell/fettuccineRosee.jpg",
+          "type": "vegetarian",
+          "slug": "fettuccinerosee"
+        },
+        "tacos": {
+          "title": "Tacos au bœuf hachéavec salsa verde maison",
+          "subtitle": "salade de chou et fromage cotija",
+          "imageSrc": "/images/upsell/groundBeefTacos.jpg",
+          "type": "easy prep",
+          "slug": "groundbeeftacos"
+        },
+        "salmon": {
+          "title": "Saumon poêlé avec vinaigrette concombres-labneh",
+          "subtitle": "boulgour acidulé, carottes rôties et pois au beurre",
+          "imageSrc": "/images/upsell/herbRoastedSalmon.jpg",
+          "type": "classic",
+          "slug": "salmonwithcucumber"
+        },
+        "pork": {
+          "title": "Côtelettes de porc au whisky et purée de pommes de terre bleues ",
+          "subtitle": "avec salade verte à la vinaigrette miel-Dijon",
+          "imageSrc": "/images/upsell/whiskyPorkChops.jpg",
+          "type": "family",
+          "slug": "whiskyrubbedpork"
+        }
+      }
+    }
+  }
+}

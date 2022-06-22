@@ -1,0 +1,174 @@
+{
+  "PersonalInfoForm": {
+    "firstName": "Prénom",
+    "lastName": "Nom",
+    "phone": "Téléphone",
+    "errors": {
+      "firstName": {
+        "required": "Prénom requis"
+      },
+      "lastName": {
+        "required": "Nom requis"
+      },
+      "phone": {
+        "required": "Téléphone requis",
+        "phone": "Il y a un problème avec votre téléphone"
+      }
+    }
+  },
+  "ProfilePage": {
+    "Heading": {
+      "storeCredit": "Crédits: {storeCredit, number, currency}"
+    },
+    "Menu": {
+      "profile": "Profil",
+      "payment": "Paiement",
+      "subscriptions": "Abonnements",
+      "share": "Partager avec des amis"
+    },
+    "logout": "Déconnexion",
+    "back": "Précédent",
+    "buttonLabel": "{label, select, add {Ajouter} edit {Modifier} other {NA}}",
+    "Questions": {
+      "havingQuestions": "Vous avez des questions? Consultez {faq} ou {chat}.",
+      "visitFAQ": "notre FAQ",
+      "chat": "contactez-nous"
+    },
+    "User": {
+      "UserDetails": {
+        "heading": "Profil",
+        "firstName": "Prénom",
+        "lastName": "Nom",
+        "phone": "Téléphone",
+        "Title": {
+          "fullName": "Nom complet",
+          "phone": "Téléphone"
+        }
+      },
+      "Password": {
+        "heading": "Nouveau mot de passe"
+      },
+      "Address": {
+        "heading": "Adresse de livraison",
+        "Title": {
+          "address": "Adresse",
+          "typeOfResidence": "Type de résidence",
+          "deliveryInstructions": "Instructions de livraison (optionnel)"
+        },
+        "BuildingTypes": {
+          "house": "Maison",
+          "apartmentWithDoorman": "Appartement avec gardien qui accepte les colis",
+          "apartmentNoDoorman": "Appartement sans gardien",
+          "duplex": "Duplex/Triplex",
+          "office": "Bureau",
+          "other": "Autre"
+        },
+        "serverError": "Une erreur est survenue. Veuillez sauvegarder vos informations à nouveau."
+      },
+      "notAvailable": "Non disponible"
+    },
+    "Payment": {
+      "Information": {
+        "heading": "Informations de paiement"
+      },
+      "CVVVisaMasterTitle": "Visa et Mastercard",
+      "CVVAMexTitle": "American Express",
+      "currentCreditCard": "Carte de crédit actuelle",
+      "securedPayments": "Paiements sécurisés",
+      "securedPaymentTooltip": "Nous prenons en charge tous les principaux fournisseurs de services de paiement.",
+      "nameOnCard": "Nom sur la carte",
+      "creditCardNum": "Numéro de carte de crédit",
+      "expiration": "Expiration",
+      "CVV": "CVV",
+      "CVVTooltipVisaMaster": "Visa et Mastercard affichent le numéro CVV à 3 chiffres au dos de la carte, à droite de la signature.",
+      "CVVTooltipAMex": "American Express affiche le numéro CVV à 4 chiffres au recto de la carte.",
+      "billingAddress": "Adresse de facturation",
+      "serverError": "Une erreur est survenue. Veuillez sauvegarder vos informations à nouveau."
+    },
+    "Subscriptions": {
+      "Mealkit": {
+        "heading": "Votre plan de repas",
+        "unsubscribe": "Désinscription",
+        "totalPerWeek": "{totalPerWeek, number, currency}({servingPrice, number, currency}/portion)",
+        "serving": "{numOfServings, plural, =0 {} =1 {portion} other {portions}}",
+        "recipe": "{numOfRecipes, plural, =0 {} =1 {recette} other {recettes}}",
+        "Title": {
+          "deliveryDay": "Jour de livraison",
+          "plan": "Plan",
+          "recipeWeek": "Recettes par semaine",
+          "servings": "Portions",
+          "totalPerWeek": "Total par semaine"
+        },
+        "Plans": {
+          "classic": "Classique",
+          "easy_prep": "Rapido",
+          "clean15": "Nutri15",
+          "family": "Familial",
+          "vegetarian": "Végétarien"
+        },
+        "noSubscription": {
+          "title": "Abonnement aux prêts-à-cuisiner",
+          "description": "Des recettes originales et les ingrédients les plus frais livrés à votre porte chaque semaine.",
+          "label": "S'abonner aux prêts-à-cuisiner"
+        },
+        "weekday": {
+          "MONDAY": "lundi",
+          "TUESDAY": "mardi",
+          "WEDNESDAY": "mercredi",
+          "THURSDAY": "jeudi",
+          "FRIDAY": "vendredi",
+          "SATURDAY": "samedi",
+          "SUNDAY": "dimanche"
+        }
+      },
+      "Preferences": {
+        "heading": "Vos préférences",
+        "description": "[FR] This information will help us choose recipes tailored to your preferences.",
+        "Title": {
+          "iLike": "J'aime manger",
+          "interest": "Intérêts"
+        },
+        "Interests": {
+          "spicyFood": "[FR] spicy food",
+          "tryNewIngredients": "Essayer de nouveaux ingrédients",
+          "timeInKitchen": "[FR] Time In Kitchen",
+          "usingFoodProcessor": "Utiliser un robot culinaire"
+        }
+      },
+      "Wow": {
+        "heading": "Marché Colorseven WOW",
+        "unsubscribe": "Désinscription",
+        "Title": {
+          "valueProp": "Livraison illimitée d'épicerie le jour même"
+        },
+        "subscribedPlan": "Forfait souscrit",
+        "tax": "impôt",
+        "noSubscription": {
+          "description": "Livraison illimitée d'épicerie le jour même ou le lendemain pour 5,99 $ / mois",
+          "label": "Démarrer votre essai gratuit de 90 jours"
+        }
+      }
+    },
+    "Share": {
+      "heading": "Programme de référencement"
+    }
+  },
+  "StripePaymentForm": {
+    "Information": {
+      "heading": "Informations de paiement"
+    },
+    "CVVVisaMasterTitle": "Visa et Mastercard",
+    "CVVAMexTitle": "American Express",
+    "currentCreditCard": "Carte de crédit actuelle",
+    "securedPayments": "Paiements sécurisés",
+    "securedPaymentTooltip": "Nous prenons en charge tous les principaux fournisseurs de services de paiement.",
+    "nameOnCard": "Nom sur la carte",
+    "creditCardNum": "Numéro de carte de crédit",
+    "expiration": "Expiration",
+    "CVV": "CVV",
+    "CVVTooltipVisaMaster": "Visa et Mastercard affichent le numéro CVV à 3 chiffres au dos de la carte, à droite de la signature.",
+    "CVVTooltipAMex": "American Express affiche le numéro CVV à 4 chiffres au recto de la carte.",
+    "billingAddress": "Adresse de facturation",
+    "paymentError": "Une erreur s'est produite lors du traitement de la carte"
+  }
+}

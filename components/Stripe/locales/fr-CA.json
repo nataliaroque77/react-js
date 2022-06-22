@@ -1,0 +1,18 @@
+{
+  "Stripe": {
+    "errors": {
+      "cardNum": {
+        "required": "Numéro de carte de crédit requis",
+        "incomplete": "Votre numéro de carte est incomplet"
+      },
+      "exp": {
+        "required": "Expiration requis",
+        "incomplete": "La date d'expiration de votre carte est incomplète"
+      },
+      "cvv": {
+        "required": "CVV requis",
+        "incomplete": "Le code de sécurité de votre carte est incomplet"
+      }
+    }
+  }
+}

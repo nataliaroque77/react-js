@@ -1,0 +1,171 @@
+{
+  "PersonalInfoForm": {
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "phone": "Phone",
+    "errors": {
+      "firstName": {
+        "required": "First name required"
+      },
+      "lastName": {
+        "required": "Last name required"
+      },
+      "phone": {
+        "required": "Phone number required",
+        "phone": "There is a problem with the phone number provided"
+      }
+    }
+  },
+  "ProfilePage": {
+    "Heading": {
+      "storeCredit": "Store Credit: {storeCredit, number, currency}"
+    },
+    "Menu": {
+      "profile": "Profile",
+      "payment": "Payment",
+      "subscriptions": "Subscriptions",
+      "share": "Share with friends"
+    },
+    "logout": "Log out",
+    "back": "Back",
+    "buttonLabel": "{label, select, add {Add} edit {Edit} other {NA}}",
+    "Questions": {
+      "havingQuestions": "Having questions? Please {faq} or {chat}.",
+      "visitFAQ": "visit our FAQ",
+      "chat": "chat with us"
+    },
+    "User": {
+      "UserDetails": {
+        "heading": "Profile",
+        "Title": {
+          "fullName": "Full Name",
+          "phone": "Phone"
+        }
+      },
+      "Password": {
+        "heading": "Change Password"
+      },
+      "Address": {
+        "heading": "Delivery Address",
+        "Title": {
+          "address": "Address",
+          "typeOfResidence": "Type of Residence",
+          "deliveryInstructions": "Delivery Instruction (optional)"
+        },
+        "BuildingTypes": {
+          "house": "House",
+          "apartmentWithDoorman": "Apartment with doorman that accepts Parcel",
+          "apartmentNoDoorman": "Apartment no doorman",
+          "duplex": "Duplex/Triplex",
+          "office": "Office",
+          "other": "Other"
+        },
+        "serverError": "An error has occurred. Please resave your update"
+      },
+      "notAvailable": "Not Available"
+    },
+    "Payment": {
+      "Information": {
+        "heading": "Payment Information"
+      },
+      "CVVVisaMasterTitle": "Visa and Mastercard",
+      "CVVAMexTitle": "American Express",
+      "currentCreditCard": "Current Credit Card",
+      "securedPayments": "Secured Payments",
+      "securedPaymentTooltip": "We support all major payment providers.",
+      "nameOnCard": "Name on Card",
+      "creditCardNum": "Credit Card Number",
+      "expiration": "Expiration",
+      "CVV": "CVV",
+      "CVVTooltipVisaMaster": "Visa and Mastercard display the 3-digit CVV number on the back of the card, to the right of the signature.",
+      "CVVTooltipAMex": "American Express Card displays the 4-digit CVV number on the front of the card.",
+      "billingAddress": "Billing Address",
+      "serverError": "An error has occurred. Please resave your update"
+    },
+    "Subscriptions": {
+      "Mealkit": {
+        "heading": "My Meal Kit Plan",
+        "unsubscribe": "Unsubscribe",
+        "totalPerWeek": "{totalPerWeek, number, currency}({servingPrice, number, currency}/serving)",
+        "serving": "{numOfServings, plural, =0 {} =1 {serving} other {servings}}",
+        "recipe": "{numOfRecipes, plural, =0 {} =1 {recipe} other {recipes}}",
+        "Title": {
+          "deliveryDay": "Delivery day",
+          "plan": "Plan",
+          "recipeWeek": "Recipes/week",
+          "servings": "Servings",
+          "totalPerWeek": "Total per week"
+        },
+        "Plans": {
+          "classic": "Classic",
+          "easy_prep": "Easy Prep",
+          "clean15": "Clean 15",
+          "family": "Family",
+          "vegetarian": "Vegetarian"
+        },
+        "noSubscription": {
+          "title": "Meal Kit Subscription",
+          "description": "Original recipes and the freshest ingredients delivered to your door every week.",
+          "label": "Subscribe meal kit!"
+        },
+        "weekday": {
+          "MONDAY": "Monday",
+          "TUESDAY": "Tuesday",
+          "WEDNESDAY": "Wednesday",
+          "THURSDAY": "Thursday",
+          "FRIDAY": "Friday",
+          "SATURDAY": "Saturday",
+          "SUNDAY": "Sunday"
+        }
+      },
+      "Preferences": {
+        "heading": "My preferences",
+        "description": "This information will help us choose recipes tailored to your preferences.",
+        "Title": {
+          "iLike": "I like to eat",
+          "interest": "I'm interested in.."
+        },
+        "Interests": {
+          "spicyFood": "Spicy food",
+          "tryNewIngredients": "Trying new ingredients",
+          "timeInKitchen": "Spending time in the kitchen",
+          "usingFoodProcessor": "Using a food processor"
+        }
+      },
+      "Wow": {
+        "heading": "Colorseven WOW",
+        "unsubscribe": "Unsubscribe",
+        "subscribedPlan": "Subscribed plan",
+        "tax": "tax",
+        "Title": {
+          "valueProp": "Unlimited Same-day / Next-day Delivery"
+        },
+        "noSubscription": {
+          "description": "Unlimited same day/next day grocery delivery for only $5.99/month",
+          "label": "Start your 90 days free trial"
+        }
+      }
+    },
+    "Share": {
+      "heading": "Referral program"
+    }
+  },
+  "StripePaymentForm": {
+    "Information": {
+      "heading": "Payment Information"
+    },
+    "CVVVisaMasterTitle": "Visa and Mastercard",
+    "CVVAMexTitle": "American Express",
+    "currentCreditCard": "Current Credit Card",
+    "securedPayments": "Secured Payments",
+    "securedPaymentTooltip": "We support all major payment providers.",
+    "nameOnCard": "Name on Card",
+    "creditCardNum": "Credit Card Number",
+    "expiration": "Expiration",
+    "CVV": "CVV",
+    "CVVTooltipVisaMaster": "Visa and Mastercard display the 3-digit CVV number on the back of the card, to the right of the signature.",
+    "CVVTooltipAMex": "American Express Card displays the 4-digit CVV number on the front of the card.",
+    "billingAddress": "Billing Address",
+    "paymentError": "Something went wrong while processing the card"
+  }
+}

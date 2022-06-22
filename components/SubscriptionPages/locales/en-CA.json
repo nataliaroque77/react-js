@@ -1,0 +1,137 @@
+{
+  "SubscriptionPages": {
+    "heading": "Subscriptions",
+    "continue": "Continue",
+    "Steps": {
+      "myplan": "My Plan",
+      "account": "Account",
+      "delivery": "Delivery",
+      "payment": "Payment"
+    },
+    "MyPlan": {
+      "heading": "My Plan"
+    },
+    "Account": {
+      "heading": "Account"
+    },
+    "Delivery": {
+      "heading": "Delivery",
+      "deliveryDayBestForYou": "What delivery day works best for you?",
+      "deliveryDay": "Delivery day",
+      "Title": {
+        "yourContactInfo": "Your contact information",
+        "fullName": "Full Name",
+        "phone": "Phone",
+        "yourAddress": "Your address",
+        "streetAddress": "Street address",
+        "deliveryInformation": "Delivery Information",
+        "typeOfResidence": "Type of Residence",
+        "deliveryInstructions": "Delivery Instruction (optional)",
+        "deliveryAddress": "Delivery address",
+        "firstDelivery": "First Delivery",
+        "change": "Change"
+      },
+      "BuildingTypes": {
+        "house": "House",
+        "apartmentWithDoorman": "Apartment with doorman that accepts Parcel",
+        "apartmentNoDoorman": "Apartment no doorman",
+        "duplex": "Duplex/Triplex",
+        "office": "Office",
+        "other": "Other"
+      },
+      "weekday": {
+        "MONDAY": "Monday",
+        "TUESDAY": "Tuesday",
+        "WEDNESDAY": "Wednesday",
+        "THURSDAY": "Thursday",
+        "FRIDAY": "Friday",
+        "SATURDAY": "Saturday",
+        "SUNDAY": "Sunday"
+      },
+      "continue": "Continue",
+      "notAvailable": "Not Available"
+    },
+    "Payment": {
+      "heading": "How would you like to pay?",
+      "Information": {
+        "heading": "Payment Information"
+      },
+      "Title": {
+        "howYouLikeToPay": "How would you like to pay?",
+        "useMyDeliveryAddress": "Use my delivery address",
+        "changeYourPaymentMethod": "Change your payment method",
+        "creditCardDetails": "Credit card details",
+        "change": "Change"
+      },
+      "continue": "Continue",
+      "notAvailable": "Not Available",
+      "CVVVisaMasterTitle": "Visa and Mastercard",
+      "CVVAMexTitle": "American Express",
+      "currentCreditCard": "Current Credit Card",
+      "securedPayments": "Secured Payments",
+      "securedPaymentTooltip": "We support all major payment providers.",
+      "nameOnCard": "Name on Card",
+      "creditCardNum": "Credit Card Number",
+      "expiration": "Expiration",
+      "CVV": "CVV",
+      "CVVTooltipVisaMaster": "Visa and Mastercard display the 3-digit CVV number on the back of the card, to the right of the signature.",
+      "CVVTooltipAMex": "American Express Card displays the 4-digit CVV number on the front of the card.",
+      "billingAddress": "Billing Address",
+      "paymentError": "Something went wrong while processing the card"
+    },
+    "PlanSummary": {
+      "heading": "Your, plan summary",
+      "description": "{numOfRecipes} meals for {numOfPortions} people per week"
+    },
+    "BonAppetit": {
+      "heading": "Bon Appétit!",
+      "description": "Your first meal kit will be delivered to you on ",
+      "chooseYourRecipes": "Choose your recipes",
+      "skipPlan": "You can skip a week or cancel at any time."
+    },
+    "HeroBanner": {
+      "heading": "Let’s build your weekly meal plan.",
+      "subheading": "First, choose the option that suits you best.",
+      "description": "Each week, we'll recommend meal recipes based on your preferences. You can also select from other plans’ recipes and skip/cancel any time."
+    },
+    "Label": {
+      "update": "Update",
+      "cancel": "Cancel",
+      "skipPlan": "You can skip a week or cancel at any time."
+    },
+    "Carousel": {
+      "heading": "Choose from a range of delicious new recipes every week.",
+      "subheading": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque a feugiat mauris.",
+      "recipes": {
+        "fettuccine": {
+          "title": "Fettuccine Rosée alla Parmigiana, Roasted",
+          "subtitle": "Roasted Cauliflower, Pepper & Pepita Salad",
+          "imageSrc": "/images/upsell/fettuccineRosee.jpg",
+          "type": "vegetarian",
+          "slug": "fettuccinerosee"
+        },
+        "tacos": {
+          "title": "Ground Beef Tacos with Homemade Salsa Verde",
+          "subtitle": "Cabbage Slaw & Cotija Cheese",
+          "imageSrc": "/images/upsell/groundBeefTacos.jpg",
+          "type": "vegetarian",
+          "slug": "groundbeeftacos"
+        },
+        "salmon": {
+          "title": "Pan-Seared Salmon with Cucumber-Labneh Vinaigrette",
+          "subtitle": "Zesty Bulgur, Roasted Carrots & Buttered Green Peas",
+          "imageSrc": "/images/upsell/herbRoastedSalmon.jpg",
+          "type": "easy prep",
+          "slug": "salmonwithcucumber"
+        },
+        "pork": {
+          "title": "Whisky Rubbed Pork Chopswith Mashed Blue Potatoes",
+          "subtitle": "Green Salad & Honey-Dijon Vinaigrette",
+          "imageSrc": "/images/upsell/WhiskyPorkChops.jpg",
+          "type": "classic",
+          "slug": "whiskyrubbedpork"
+        }
+      }
+    }
+  }  
+}

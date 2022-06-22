@@ -1,0 +1,20 @@
+{
+  "StripePaymentForm": {
+    "Information": {
+      "heading": "Payment Information"
+    },
+    "CVVVisaMasterTitle": "Visa and Mastercard",
+    "CVVAMexTitle": "American Express",
+    "currentCreditCard": "Current Credit Card",
+    "securedPayments": "Secured Payments",
+    "securedPaymentTooltip": "We support all major payment providers.",
+    "nameOnCard": "Name on Card",
+    "creditCardNum": "Credit Card Number",
+    "expiration": "Expiration",
+    "CVV": "CVV",
+    "CVVTooltipVisaMaster": "Visa and Mastercard display the 3-digit CVV number on the back of the card, to the right of the signature.",
+    "CVVTooltipAMex": "American Express Card displays the 4-digit CVV number on the front of the card.",
+    "billingAddress": "Billing Address",
+    "paymentError": "Something went wrong while processing the card"
+  }
+}

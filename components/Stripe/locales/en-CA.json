@@ -1,0 +1,18 @@
+{
+  "Stripe": {
+    "errors": {
+      "cardNum": {
+        "required": "Card Number required",
+        "incomplete": "Your card number is incomplete"
+      },
+      "exp": {
+        "required": "Expiration required",
+        "incomplete": "Your expiration is incomplete"
+      },
+      "cvv": {
+        "required": "CVV required",
+        "incomplete": "Your cvv is incomplete"
+      }
+    }
+  }
+}

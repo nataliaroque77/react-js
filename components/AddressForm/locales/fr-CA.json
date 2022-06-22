@@ -1,0 +1,27 @@
+{
+  "AddressForm": {
+      "heading": "Adresse de livraison",
+      "Title": {
+        "address": "Adresse",
+        "typeOfResidence": "Type de résidence",
+        "deliveryInstructions": "Instructions de livraison (optionnel)"
+      },
+      "addressLine1": "Adresse de la rue",
+      "addressLine2": "Unité / Suite / Apt. (optionnel)",
+      "buildingType": "Type de bâtiment",
+      "company": "Entreprise",
+      "city": "Ville",
+      "provinceCode": "Province",
+      "postalCode": "Code postal",
+      "specialInstructions": "Instructions de livraison (optionnel)",
+      "characters": "caractères",
+      "BuildingTypes": {
+          "house": "Maison",
+          "apartmentWithDoorman": "Appartement avec gardien qui accepte les colis",
+          "apartmentNoDoorman": "Appartement sans gardien",
+          "duplex": "Duplex/Triplex",
+          "office": "Bureau",
+          "other": "Autre"
+      }
+  }
+}
